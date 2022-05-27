@@ -1,0 +1,19 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Coche nuevoCoche = new Coche();
+        nuevoCoche.Sumarpuerta();
+        System.out.println(nuevoCoche.puertas);
+    }
+}
+
+class Coche
+{
+    public int puertas=2;
+
+    public void Sumarpuerta()
+    {
+        this.puertas++;
+    }
+}
